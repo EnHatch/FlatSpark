@@ -203,8 +203,8 @@
                 <s:Group id="moveArea" left="0" right="0" top="0" bottom="0" />
                 
                 <!--- @copy spark.components.TitleWindow#closeButton -->
-                <s:Button id="closeButton" skinClass="flatSpark.skins.TitleWindowCloseButtonSkin" 
-                         right="15" top="15" />
+                <s:Button id="closeButton" skinClass="flatSpark.skins.TitleWindowCloseButtonSkin" height="50" width="50"
+						  right="3" top="3"/>
             </s:Group>
             
             <!--

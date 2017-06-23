@@ -37,12 +37,17 @@ limitations under the License.
 	
 	<fx:Script fb:purpose="styling">
 		<![CDATA[         
+			import spark.primitives.BitmapImage;
+			
 			import flatSpark.enums.BrandColorEnum;
 			import flatSpark.enums.ButtonColorEnum;
 			import flatSpark.enums.ButtonSizeEnum;
 			import flatSpark.enums.TextInputSizeEnum;
 			import flatSpark.utils.ColorUtils;
-
+			
+			
+			public var iconDisplay:BitmapImage;
+			
 			/* Define the skin elements that should not be colorized. 
 			For button, the graphics are colorized but the label is not. */
 			static private const exclusions:Array = ["iconDisplay", "labelDisplay"];
@@ -73,11 +78,12 @@ limitations under the License.
 				if (cornerRadius != cr)
 				{
 					cornerRadius = cr;
-					fill_up.radiusX = cornerRadius;
-					fill_over.radiusX = cornerRadius;
-					fill_down.radiusX = cornerRadius;
-					fill_disabled.radiusX = cornerRadius;
 				}
+				
+				if(fill_up) fill_up.radiusX = cornerRadius;
+				if(fill_over) fill_over.radiusX = cornerRadius;
+				if(fill_down) fill_down.radiusX = cornerRadius;
+				if(fill_disabled) fill_disabled.radiusX = cornerRadius;
 				
 				/*var larguraIcone:int = 0;
 				if (iconFont.text != null && iconFont.text != "")

@@ -99,11 +99,11 @@ limitations under the License.
 	<!--- @private -->
 	<s:Rect id="fill" left="0" right="0" top="0" bottom="0">
 		<s:fill>
-			<s:SolidColor color="{ColorUtils.Turquoise}" />
+			<s:SolidColor color="{ColorUtils.Chrome}" />
 		</s:fill>
 	</s:Rect>
 	
 	<!--- The arrow graphic displayed in the anchor button. -->
-	<s:Label right="17" top="6" fontFamily="FontAwesome" fontSize="19" color="#FFFFFF" text="{AwesomeUtils.fa_caret_down}" includeIn="up, down, over, disabled"
+	<s:Label right="17" top="6" fontFamily="FontAwesome" fontSize="19" color="{ColorUtils.DarkChrome}" text="{AwesomeUtils.fa_caret_down}" includeIn="up, down, over, disabled"
 			 itemCreationPolicy="immediate" verticalAlign="middle" verticalCenter="0" />
 </s:SparkSkin>

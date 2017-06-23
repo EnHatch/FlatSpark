@@ -95,7 +95,7 @@ for the PopUpAnchor defined by the popUp property.</p>
 	-->
 	<s:PopUpAnchor id="popUp"  displayPopUp.normal="false" displayPopUp.open="true" includeIn="open"
 				   left="0" right="0" top="{hostComponent.height+4}" bottom="0" itemDestructionPolicy="auto"
-				   popUpPosition="below" popUpWidthMatchesAnchorWidth="true">
+				   popUpPosition="below" popUpWidthMatchesAnchorWidth="true" >
 		
 		<!--- 
 		This includes borders, background colors, scrollers, and filters.
@@ -105,7 +105,7 @@ for the PopUpAnchor defined by the popUp property.</p>
 			
 			<s:Path top="2" right="20" data="M 0 10 L 10 0 L 20 10 Z">
 				<s:fill>
-					<s:SolidColor color="{ColorUtils.WetAsphalt}" alpha="1"/>
+					<s:SolidColor color="{ColorUtils.Chrome}" alpha="1"/>
 				</s:fill>
 			</s:Path>
 			
@@ -113,7 +113,7 @@ for the PopUpAnchor defined by the popUp property.</p>
 			<!--- Defines the appearance of drop-down list's background fill. -->
 			<s:Rect id="background" left="0" right="0" top="10" bottom="0" radiusX="4" >
 				<s:fill>
-					<s:SolidColor id="bgFill" color="{ColorUtils.WetAsphalt}" />
+					<s:SolidColor id="bgFill" color="{ColorUtils.Chrome}" />
 				</s:fill>
 			</s:Rect>
 			
@@ -137,7 +137,7 @@ for the PopUpAnchor defined by the popUp property.</p>
 	
 	<!--- @copy spark.components.DropDownList#labelDisplay -->
 
-	<s:Label id="labelDisplay" verticalAlign="middle" maxDisplayedLines="1"  backgroundColor="{ColorUtils.Turquoise}"
-			 mouseEnabled="false" mouseChildren="false" fontFamily="Lato" fontWeight="normal" color="0xFFFFFF" 
+	<s:Label id="labelDisplay" verticalAlign="middle" maxDisplayedLines="1"  backgroundColor="{ColorUtils.Chrome}"
+			 mouseEnabled="false" mouseChildren="false" fontFamily="Lato" fontWeight="normal" 
 			 left="10" right="37" top="8" bottom="8" fontSize="15" verticalCenter="0"></s:Label> 
 </s:SparkSkin>

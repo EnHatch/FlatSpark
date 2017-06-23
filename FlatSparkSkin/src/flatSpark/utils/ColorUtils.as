@@ -2,12 +2,12 @@ package flatSpark.utils
 {
 	import mx.states.State;
 	
-	import flatSpark.enums.BrandColorEnum;
 	import flatSpark.enums.ButtonColorEnum;
 
 	public class ColorUtils
 	{	
 		public static const Turquoise:uint = 0x1ABC9C;
+		public static const DarkTurquoise:uint = 0x147764;
 		public static const GreenSea:uint = 0x16A085;
 		public static const Emerald:uint = 0x2ECC71;
 		public static const Nephritis:uint = 0x27AE60;
@@ -27,7 +27,9 @@ package flatSpark.utils
 		public static const Silver:uint = 0xBDC3C7;
 		public static const Concrete:uint = 0x95A5A6;
 		public static const Asbestos:uint = 0x7F8C8D;
-		
+		public static const Chrome:uint = 0xDEE1E2;
+		public static const DarkChrome:uint = 0x5A6566
+			
 		public function ColorUtils()
 		{
 			
@@ -43,7 +45,8 @@ package flatSpark.utils
 				ButtonColorEnum.InverseUp, ButtonColorEnum.InverseHover, ButtonColorEnum.InverseDown, ButtonColorEnum.InverseDisabled,
 				ButtonColorEnum.DefaultUp, ButtonColorEnum.DefaultHover, ButtonColorEnum.DefaultDown, ButtonColorEnum.DefaultDisabled,
 				ButtonColorEnum.InfoUp, ButtonColorEnum.InfoHover, ButtonColorEnum.InfoDown, ButtonColorEnum.InfoDisabled,
-				ButtonColorEnum.DangerUp, ButtonColorEnum.DangerHover, ButtonColorEnum.DangerDown, ButtonColorEnum.DangerDisabled
+				ButtonColorEnum.DangerUp, ButtonColorEnum.DangerHover, ButtonColorEnum.DangerDown, ButtonColorEnum.DangerDisabled,
+				ButtonColorEnum.SubtleUp, ButtonColorEnum.SubtleHover, ButtonColorEnum.SubtleDown, ButtonColorEnum.SubtleDisabled
 				);
 			
 			// Mapeia os estados permitidos para números
@@ -60,7 +63,7 @@ package flatSpark.utils
 					numeroEstado = 3;
 					break;
 				case "disabled":
-					numeroEstado = 3;
+					numeroEstado = 4;
 					break;
 			}
 			

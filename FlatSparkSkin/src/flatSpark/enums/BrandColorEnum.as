@@ -9,5 +9,6 @@ package flatSpark.enums
 		public static const Default:int = 5;
 		public static const Info:int = 6;
 		public static const Danger:int = 7;
+		public static const Subtle:int = 8;
 	}
 }
