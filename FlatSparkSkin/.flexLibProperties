@@ -35,20 +35,26 @@
     <classEntry path="flatSpark.skins.AlertSkin"/>
     <classEntry path="flatSpark.skins.TitleWindowNoCloseSkin"/>
     <classEntry path="flatSpark.skins.DropDownListAboveSkin"/>
+    <classEntry path="flatSpark.utils.MaterialIconsUtils"/>
+    <classEntry path="flatSpark.utils.IcomoonUtils"/>
   </includeClasses>
   <includeResources>
+    <resourceEntry destPath="flatSpark/assets/fonts/icomoon/IcoMoon-Free.ttf" sourcePath="flatSpark/assets/fonts/icomoon/IcoMoon-Free.ttf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Bold.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Bold.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/awesome/FontAwesome.otf" sourcePath="flatSpark/assets/fonts/awesome/FontAwesome.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Regular.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Regular.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Black.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Black.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Hairline_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Hairline_Italic.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Regular_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Regular_Italic.otf"/>
+    <resourceEntry destPath="flatSpark/assets/fonts/ionicons/ionicons.ttf" sourcePath="flatSpark/assets/fonts/ionicons/ionicons.ttf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Hairline.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Hairline.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Light.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Light.otf"/>
-    <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Bold_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Bold_Italic.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Black_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Black_Italic.otf"/>
+    <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Bold_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Bold_Italic.otf"/>
     <resourceEntry destPath="flatSpark/assets/fonts/lato/Lato_Light_Italic.otf" sourcePath="flatSpark/assets/fonts/lato/Lato_Light_Italic.otf"/>
+    <resourceEntry destPath="flatSpark/assets/fonts/material/MaterialIcons-Regular.ttf" sourcePath="flatSpark/assets/fonts/material/MaterialIcons-Regular.ttf"/>
     <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+    <resourceEntry destPath="flatSpark/assets/fonts/glyph/glyphicons-halflings-regular.ttf" sourcePath="flatSpark/assets/fonts/glyph/glyphicons-halflings-regular.ttf"/>
   </includeResources>
   <namespaceManifests/>
 </flexLibProperties>

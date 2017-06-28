@@ -124,6 +124,11 @@ limitations under the License.
 		<s:State name="disabledWithControlBar" stateGroups="withControls" />
 	</s:states>
 	
+	<!-- drop shadow can't be hittable so it stays sibling of other graphics -->
+	<!--- @private -->
+	<s:RectangularDropShadow id="dropShadow" blurX="4" distance="0" angle="90" alpha="1"
+							 color="{ColorUtils.Silver}" left="0" top="0" right="0" bottom="0"/>
+	
 	<!--- drop shadow can't be hittable so all other graphics go in this group -->
 	<s:Group left="0" right="0" top="0" bottom="0">
 		

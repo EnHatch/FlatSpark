@@ -10,6 +10,30 @@
 	embedAsCFF: true;
 }
 
+@font-face { 
+	src: url("flatSpark/assets/fonts/ionicons/ionicons.ttf"); 
+	fontFamily: Ionicons;
+	embedAsCFF: true;
+}
+
+@font-face { 
+	src: url("flatSpark/assets/fonts/material/MaterialIcons-Regular.ttf"); 
+	fontFamily: MaterialIcons;
+	embedAsCFF: true;
+}
+
+@font-face { 
+	src: url("flatSpark/assets/fonts/icomoon/IcoMoon-Free.ttf"); 
+	fontFamily: IcoMoon;
+	embedAsCFF: true;
+}
+
+@font-face { 
+	src: url("flatSpark/assets/fonts/glyph/glyphicons-halflings-regular.ttf"); 
+	fontFamily: GlyphIcons;
+	embedAsCFF: true;
+}
+
 @font-face {
 	src:url("flatSpark/assets/fonts/lato/Lato_Regular.otf");
 	fontFamily: Lato; 
