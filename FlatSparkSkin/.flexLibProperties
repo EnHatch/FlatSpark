@@ -37,6 +37,7 @@
     <classEntry path="flatSpark.skins.DropDownListAboveSkin"/>
     <classEntry path="flatSpark.utils.MaterialIconsUtils"/>
     <classEntry path="flatSpark.utils.IcomoonUtils"/>
+    <classEntry path="flatSpark.skins.DataGridSkin"/>
   </includeClasses>
   <includeResources>
     <resourceEntry destPath="flatSpark/assets/fonts/icomoon/IcoMoon-Free.ttf" sourcePath="flatSpark/assets/fonts/icomoon/IcoMoon-Free.ttf"/>

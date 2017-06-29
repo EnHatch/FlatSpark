@@ -85,6 +85,24 @@ limitations under the License.
 					larguraIcone = 60;
 				}*/
 				
+				var fF:String = getStyle("iconFontFamily");
+				
+				if(fF && fF.length > 0){
+					iconFont.setStyle("fontFamily", fF);
+				}
+				
+				var fS:String = getStyle("iconFontSize");
+				
+				if(fS && fS.length > 0){
+					iconFont.setStyle("fontSize", fS);
+				}	
+				
+				var iC:String = getStyle("iconFontColor");
+				
+				if(iC && iC.length > 0){
+					iconFont.setStyle("color", iC);
+				}	
+				
 				super.updateDisplayList(unscaledWidth, unscaledHeight);
 			}
 			
@@ -194,10 +212,9 @@ limitations under the License.
 				 maxDisplayedLines="1" includeInLayout="{hostComponent.iconFont != null}"
 				 horizontalCenter="0" verticalCenter="0" verticalAlign="middle">
 		</s:Label>
-		
 		<s:Label id="labelDisplay" color="{getLabelColor(hostComponent.brand)}" color.disabled="0xE3E3E3" color.down="0xFFFFFF"
 				 textAlign="center" fontSize="{getFontSize(hostComponent.height)}" fontFamily="Lato"
-				 maxDisplayedLines="1"
+				 maxDisplayedLines="1" includeInLayout="{hostComponent.label.length > 0}"
 				 horizontalCenter="0" verticalCenter="1" verticalAlign="middle">
 		</s:Label>
 	</s:HGroup>
