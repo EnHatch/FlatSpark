@@ -118,6 +118,13 @@ limitations under the License.
 					return 0xFFFFFF;
 				}
 			}
+			private static function getLabelDisabledColor(brand:int):uint{
+				if(brand == BrandColorEnum.Subtle){
+					return 0x5f6166;	
+				}else{
+					return 0xE3E3E3;
+				}
+			}
 			
 			private static function getFontSize(height:int):int
 			{
@@ -212,7 +219,7 @@ limitations under the License.
 				 maxDisplayedLines="1" includeInLayout="{hostComponent.iconFont != null}"
 				 horizontalCenter="0" verticalCenter="0" verticalAlign="middle">
 		</s:Label>
-		<s:Label id="labelDisplay" color="{getLabelColor(hostComponent.brand)}" color.disabled="0xE3E3E3" color.down="0xFFFFFF"
+		<s:Label id="labelDisplay" color="{getLabelColor(hostComponent.brand)}" color.disabled="{getLabelDisabledColor(hostComponent.brand)}" color.down="0xFFFFFF"
 				 textAlign="center" fontSize="{getFontSize(hostComponent.height)}" fontFamily="Lato"
 				 maxDisplayedLines="1" includeInLayout="{hostComponent.label.length > 0}"
 				 horizontalCenter="0" verticalCenter="1" verticalAlign="middle">
