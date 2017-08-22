@@ -122,7 +122,7 @@ for the PopUpAnchor defined by the popUp property.</p>
 				<!--- @copy spark.components.SkinnableDataContainer#dataGroup-->
 				<s:DataGroup id="dataGroup" itemRenderer="flatSpark.itemRenderers.DefaultItemRenderer">
 					<s:layout>
-						<s:VerticalLayout gap="0" horizontalAlign="contentJustify" requestedMinRowCount="1" requestedMaxRowCount="6"/>
+						<s:VerticalLayout gap="0" horizontalAlign="contentJustify" requestedMinRowCount="1" requestedMaxRowCount="15"/>
 					</s:layout>
 				</s:DataGroup> 
 			</s:Scroller>
